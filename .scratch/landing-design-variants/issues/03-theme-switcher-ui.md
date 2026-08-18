@@ -1,7 +1,7 @@
 # 03 — Плавающий переключатель тем (UI + persistence)
 
 **Blocked by:** 02-theme-blocks
-**Status:** ready-for-agent
+**Status:** done
 
 ## Что сделать
 

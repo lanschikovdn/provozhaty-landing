@@ -62,4 +62,18 @@ document.addEventListener('DOMContentLoaded', () => {
     form.querySelectorAll('input, button').forEach(el => el.disabled = true);
     note.hidden = false;
   });
+
+  /* ---------- THEME SWITCHER ---------- */
+  const themeSwitch = document.getElementById('themeSwitch');
+  const savedTheme = localStorage.getItem('provozhaty-theme') || 'warm';
+  document.documentElement.dataset.theme = savedTheme;
+  themeSwitch.querySelectorAll('[data-theme-btn]').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.themeBtn === savedTheme);
+    btn.addEventListener('click', () => {
+      const theme = btn.dataset.themeBtn;
+      document.documentElement.dataset.theme = theme;
+      localStorage.setItem('provozhaty-theme', theme);
+      themeSwitch.querySelectorAll('[data-theme-btn]').forEach(b => b.classList.toggle('active', b === btn));
+    });
+  });
 });
