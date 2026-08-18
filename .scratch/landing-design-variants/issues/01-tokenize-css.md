@@ -1,7 +1,7 @@
 # 01 — Токенизировать радиусы/тени/шрифт в style.css
 
 **Blocked by:** —
-**Status:** ready-for-agent
+**Status:** done
 
 ## Что сделать
 

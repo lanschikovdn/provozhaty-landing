@@ -1,7 +1,7 @@
 # 02 — Добавить [data-theme] блоки soft и bold
 
 **Blocked by:** 01-tokenize-css
-**Status:** ready-for-agent
+**Status:** done
 
 ## Что сделать
 
