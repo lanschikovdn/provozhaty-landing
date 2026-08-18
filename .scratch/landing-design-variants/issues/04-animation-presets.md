@@ -1,7 +1,7 @@
 # 04 — JS-пресеты анимаций по теме
 
 **Blocked by:** 03-theme-switcher-ui
-**Status:** ready-for-agent
+**Status:** done
 
 ## Что сделать
 
