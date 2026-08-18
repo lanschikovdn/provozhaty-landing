@@ -1,7 +1,7 @@
 # 05 — QA всех трёх тем + обновить документы
 
 **Blocked by:** 04-animation-presets
-**Status:** ready-for-agent
+**Status:** done
 
 ## Что сделать
 
