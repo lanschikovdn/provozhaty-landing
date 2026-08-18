@@ -63,6 +63,19 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  /* ---------- TRUST TRIANGLE DRAW-IN (single authored motion moment) ---------- */
+  const diagramWrap = document.querySelector('.diagram-wrap');
+  if (diagramWrap) {
+    const triLine = diagramWrap.querySelector('.tri-line');
+    const triNodes = diagramWrap.querySelectorAll('.tri-node');
+    gsap.set(triNodes, { scale: 0.5, transformOrigin: '50% 50%' });
+    gsap.timeline({
+      scrollTrigger: { trigger: diagramWrap, start: 'top 85%', toggleActions: 'play none none none' }
+    })
+      .to(triLine, { strokeDashoffset: 0, duration: 1.1, ease: 'power2.inOut' })
+      .to(triNodes, { opacity: 1, scale: 1, duration: 0.5, ease: 'back.out(2)', stagger: 0.12 }, '-=0.55');
+  }
+
   /* ---------- CTA FORM (stub, no backend yet) ---------- */
   const form = document.getElementById('ctaForm');
   const note = document.getElementById('formNote');

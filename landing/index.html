@@ -107,10 +107,32 @@
     <div class="wrap solution-grid">
       <div class="diagram-wrap reveal">
         <svg viewBox="0 0 420 380" class="triangle-diagram">
-          <polygon points="210,40 60,320 360,320" fill="none" stroke="#0E6C50" stroke-width="6" stroke-linejoin="round"/>
-          <g transform="translate(210,40)"><circle r="40" fill="#FFFFFF" stroke="#17162A" stroke-width="3"/><text y="6" text-anchor="middle" class="node-emoji">🎓</text></g>
-          <g transform="translate(60,320)"><circle r="40" fill="#FFFFFF" stroke="#17162A" stroke-width="3"/><text y="6" text-anchor="middle" class="node-emoji">👪</text></g>
-          <g transform="translate(360,320)"><circle r="40" fill="#FFFFFF" stroke="#17162A" stroke-width="3"/><text y="6" text-anchor="middle" class="node-emoji">🏫</text></g>
+          <polygon class="tri-line" points="210,40 60,320 360,320" fill="none" stroke-width="6" stroke-linejoin="round" stroke-dasharray="940" stroke-dashoffset="940"/>
+          <g class="tri-node" transform="translate(210,40)">
+            <circle r="40" class="node-circle"/>
+            <svg x="-15" y="-15" width="30" height="30" viewBox="0 0 24 24" fill="none" class="node-icon" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3 2 8l10 5 10-5-10-5Z"/>
+              <path d="M6 10.5V16c0 1.5 2.5 3 6 3s6-1.5 6-3v-5.5"/>
+              <path d="M22 8v6"/>
+            </svg>
+          </g>
+          <g class="tri-node" transform="translate(60,320)">
+            <circle r="40" class="node-circle"/>
+            <svg x="-15" y="-15" width="30" height="30" viewBox="0 0 24 24" fill="none" class="node-icon" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="9" cy="8" r="3.2"/>
+              <path d="M3.5 20c0-3.6 2.5-6.5 5.5-6.5s5.5 2.9 5.5 6.5"/>
+              <circle cx="17" cy="7" r="2.4"/>
+              <path d="M14.8 13.8c1-.8 2.1-1.2 3.2-1.2 2.6 0 4.7 2.3 4.7 5.2"/>
+            </svg>
+          </g>
+          <g class="tri-node" transform="translate(360,320)">
+            <circle r="40" class="node-circle"/>
+            <svg x="-15" y="-15" width="30" height="30" viewBox="0 0 24 24" fill="none" class="node-icon" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 21V9l8-5 8 5v12"/>
+              <path d="M4 21h16"/>
+              <path d="M9 21v-6h6v6"/>
+            </svg>
+          </g>
         </svg>
         <div class="diagram-labels">
           <span style="top:20%;left:50%;transform:translate(-50%,0)">Старшеклассники</span>
@@ -174,13 +196,22 @@
       <h2 class="h2">Выберите свою роль</h2>
       <div class="role-row reveal-group">
         <div class="role-card reveal">
-          <span class="role-icon">👪</span>
+          <svg class="role-icon" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="8" r="3.2"/>
+            <path d="M3.5 20c0-3.6 2.5-6.5 5.5-6.5s5.5 2.9 5.5 6.5"/>
+            <circle cx="17" cy="7" r="2.4"/>
+            <path d="M14.8 13.8c1-.8 2.1-1.2 3.2-1.2 2.6 0 4.7 2.3 4.7 5.2"/>
+          </svg>
           <h3>Я родитель</h3>
           <p>Хочу спокойно доверить дорогу в школу проверенному человеку и видеть весь путь онлайн.</p>
           <a href="#cta" class="btn btn-primary btn-sm">Оставить заявку</a>
         </div>
         <div class="role-card role-card-accent reveal">
-          <span class="role-icon">🎒</span>
+          <svg class="role-icon" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 8V6a5 5 0 0 1 10 0v2"/>
+            <rect x="5" y="8" width="14" height="13" rx="3"/>
+            <path d="M9 12h6"/>
+          </svg>
           <h3>Хочу сопровождать</h3>
           <p>Я старшеклассник, студент или родитель — готов провожать детей своей школы за плату.</p>
           <a href="#cta" class="btn btn-outline btn-sm">Стать провожатым</a>
