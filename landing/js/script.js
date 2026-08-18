@@ -44,8 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
     soft: { duration: 1.0, ease: 'power1.out', y: 16, stagger: 0.10 },
     bold: { duration: 0.5, ease: 'back.out(1.7)', y: 40, stagger: 0.04 },
   };
-  const revealTheme = localStorage.getItem('provozhaty-theme') || 'warm';
-  const preset = ANIM_PRESETS[revealTheme] || ANIM_PRESETS.warm;
+  const revealTheme = localStorage.getItem('provozhaty-theme') || 'soft';
+  const preset = ANIM_PRESETS[revealTheme] || ANIM_PRESETS.soft;
 
   document.querySelectorAll('.reveal').forEach((el, i) => {
     gsap.set(el, { y: preset.y });
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------- THEME SWITCHER ---------- */
   const themeSwitch = document.getElementById('themeSwitch');
-  const savedTheme = localStorage.getItem('provozhaty-theme') || 'warm';
+  const savedTheme = localStorage.getItem('provozhaty-theme') || 'soft';
   document.documentElement.dataset.theme = savedTheme;
   themeSwitch.querySelectorAll('[data-theme-btn]').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.themeBtn === savedTheme);
