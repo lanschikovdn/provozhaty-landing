@@ -323,7 +323,6 @@ a{color:inherit;text-decoration:none;}
 .theme-switch button.active{background:var(--forest);color:#fff;}
 @media(max-width:640px){
   .theme-switch{
-    right:16px;bottom:16px;top:auto;transform:none;
-    flex-direction:row;
+    right:8px;bottom:16px;top:auto;transform:none;
   }
 }
