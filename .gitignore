@@ -1,0 +1,11 @@
+.env
+node_modules/
+
+# исходные бизнес-материалы (не часть сайта, не версионируем)
+*.pdf
+*.pptx
+*.xlsx
+*.docx
+*.zip
+/video.mp4
+/photo_*.jpg

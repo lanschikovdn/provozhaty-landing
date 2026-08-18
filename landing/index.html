@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ПроВожатый — безопасный путь в школу</title>
+<meta name="description" content="Проверенный сопровождающий забирает ребёнка из дома, идёт рядом и подтверждает: дошёл. Родитель видит весь путь онлайн.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">
+      <img src="assets/mark.jpg" alt="" class="logo-mark">
+      <span class="logo-word">Про<em>Вожатый</em></span>
+    </a>
+    <nav class="header-nav">
+      <a href="#how">Как это работает</a>
+      <a href="#safety">Безопасность</a>
+      <a href="#roles">Кому подходит</a>
+    </nav>
+    <a href="#cta" class="btn btn-primary btn-sm">Оставить заявку</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- 1. HERO -->
+  <section class="section hero" id="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="pill">Москва · дети 1–4 класса</span>
+        <h1 class="hero-title">Путь в школу,<br>который вы <span class="accent">видите</span><br>от порога до звонка</h1>
+        <p class="lead">Проверенный сопровождающий из вашей школы забирает ребёнка из дома, идёт рядом и подтверждает: дошёл.</p>
+        <div class="hero-actions">
+          <a href="#cta" class="btn btn-primary">Оставить заявку</a>
+          <a href="#how" class="btn btn-ghost">Как это работает</a>
+        </div>
+        <div class="pill-row">
+          <span class="pill pill-outline">Закрытое сообщество</span>
+          <span class="pill pill-outline">Геолокация</span>
+          <span class="pill pill-outline">Фото передачи</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-stage-wrap" id="heroStageWrap">
+      <div class="hero-stage" id="heroStage">
+        <video class="hero-video" id="heroVideo" src="assets/hero.mp4" muted playsinline preload="auto"></video>
+
+        <div class="tooltip tt-1" id="tt1">
+          <span class="dot"></span>
+          <div><strong>Вышли из дома</strong><span>07:52 · маршрут начат</span></div>
+        </div>
+        <div class="tooltip tt-2" id="tt2">
+          <span class="dot"></span>
+          <div><strong>В пути</strong><span>08:14 · 320 м до школы</span></div>
+        </div>
+        <div class="tooltip tt-3" id="tt3">
+          <div><strong>Передан в школу</strong><span>фото-подтверждение</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. ПРОБЛЕМА -->
+  <section class="section section-dark" id="problem">
+    <div class="wrap">
+      <span class="eyebrow eyebrow-dark">Знакомая дилемма</span>
+      <h2 class="h2 h2-dark">Между временем и спокойствием<br>приходится выбирать каждый день</h2>
+
+      <div class="fork-row reveal-group">
+        <div class="fork-card reveal">
+          <h3>«Вожу сам»</h3>
+          <p>1,5–3 часа в день на дорогу — и это несовместимо с работой.</p>
+        </div>
+        <div class="fork-card fork-card-dark reveal">
+          <h3>«Отпускаю одного»</h3>
+          <p>Тревога на перекрёстках и полное отсутствие уверенности, что ребёнок дошёл.</p>
+        </div>
+      </div>
+
+      <div class="stat-row reveal-group">
+        <div class="stat-card reveal">
+          <span class="stat-num">6 494</span>
+          <span class="stat-label">ДТП с детьми-пешеходами в России за 2025 год</span>
+        </div>
+        <div class="stat-card reveal">
+          <span class="stat-num accent-text">+12,3%</span>
+          <span class="stat-label">рост числа погибших детей-пешеходов за 7 месяцев 2025 года</span>
+        </div>
+        <div class="stat-card reveal">
+          <span class="stat-num">1,5–3<small>ч</small></span>
+          <span class="stat-label">ежедневно родитель тратит на дорогу</span>
+        </div>
+      </div>
+      <p class="source">Источник: ГУОБДД МВД России · stat.gibdd.ru, 2025</p>
+    </div>
+  </section>
+
+  <!-- 3. РЕШЕНИЕ -->
+  <section class="section" id="solution">
+    <div class="wrap solution-grid">
+      <div class="diagram-wrap reveal">
+        <svg viewBox="0 0 420 380" class="triangle-diagram">
+          <polygon points="210,40 60,320 360,320" fill="none" stroke="#0E6C50" stroke-width="6" stroke-linejoin="round"/>
+          <g transform="translate(210,40)"><circle r="40" fill="#FFFFFF" stroke="#17162A" stroke-width="3"/><text y="6" text-anchor="middle" class="node-emoji">🎓</text></g>
+          <g transform="translate(60,320)"><circle r="40" fill="#FFFFFF" stroke="#17162A" stroke-width="3"/><text y="6" text-anchor="middle" class="node-emoji">👪</text></g>
+          <g transform="translate(360,320)"><circle r="40" fill="#FFFFFF" stroke="#17162A" stroke-width="3"/><text y="6" text-anchor="middle" class="node-emoji">🏫</text></g>
+        </svg>
+        <div class="diagram-labels">
+          <span style="top:20%;left:50%;transform:translate(-50%,0)">Старшеклассники</span>
+          <span style="top:84%;left:0;">Другие родители</span>
+          <span style="top:84%;right:0;">Сотрудники школы</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">Закрытая экосистема</span>
+        <h2 class="h2">Не биржа исполнителей,<br>а доверенная сеть <span class="accent">внутри школы</span></h2>
+        <p class="lead-sm">Сопровождающих не ищут в интернете. Это старшеклассники, родители и сотрудники одной с вами школы — те, кого вы и так знаете в лицо.</p>
+        <blockquote class="quote">«Первый маршрут вы проходите вместе и одобряете лично»</blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. КАК ЭТО РАБОТАЕТ -->
+  <section class="section section-tint" id="how">
+    <div class="wrap">
+      <span class="eyebrow">Пять шагов</span>
+      <h2 class="h2">От расписания до подтверждённой передачи</h2>
+
+      <div class="steps-row reveal-group">
+        <div class="step-card reveal"><span class="step-num">01</span><h4>Маршрут и расписание</h4><p>Дом → школа → кружок, нужные дни и время.</p></div>
+        <div class="step-card reveal"><span class="step-num">02</span><h4>Умный подбор</h4><p>Совпадение по школе, пути и доступности.</p></div>
+        <div class="step-card reveal"><span class="step-num">03</span><h4>Первый путь вместе</h4><p>Вы знакомитесь и одобряете лично.</p></div>
+        <div class="step-card reveal"><span class="step-num">04</span><h4>Онлайн-контроль</h4><p>Статус, геолокация и чат поездки.</p></div>
+        <div class="step-card reveal"><span class="step-num">05</span><h4>Передача только своим</h4><p>Фото и подтверждение из одобренного списка.</p></div>
+      </div>
+
+      <div class="status-strip reveal">
+        <div class="status-chip"><span class="dot dot-live"></span>В пути · 320 м до школы</div>
+        <div class="status-chip status-chip-done">✓ Передан в школу</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. БЕЗОПАСНОСТЬ -->
+  <section class="section section-dark" id="safety">
+    <div class="wrap safety-grid">
+      <div class="reveal">
+        <span class="eyebrow eyebrow-dark">Безопасность по умолчанию</span>
+        <h2 class="h2 h2-dark">Пять уровней проверки —<br>на каждый рейс</h2>
+        <div class="big-num">5</div>
+        <p class="lead-sm lead-sm-dark">слоёв доверия проходит каждый маршрут. Его нельзя завершить без подтверждённой передачи ребёнка.</p>
+      </div>
+      <div class="safety-list reveal-group">
+        <div class="safety-item safety-item-active reveal"><span>01</span><div><strong>Отбор и документы</strong><small>собеседование и проверка до допуска</small></div></div>
+        <div class="safety-item reveal"><span>02</span><div><strong>Обязательное обучение</strong><small>дорога, первая помощь, общение с детьми</small></div></div>
+        <div class="safety-item reveal"><span>03</span><div><strong>Личное одобрение родителя</strong><small>первый маршрут проходят вместе</small></div></div>
+        <div class="safety-item reveal"><span>04</span><div><strong>Цифровой контроль</strong><small>статус, геолокация, фото передачи</small></div></div>
+        <div class="safety-item reveal"><span>05</span><div><strong>Закрытое школьное сообщество</strong><small>репутация видна, анонимной биржи нет</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. ДВЕ РОЛИ -->
+  <section class="section" id="roles">
+    <div class="wrap">
+      <span class="eyebrow">Кому это подходит</span>
+      <h2 class="h2">Выберите свою роль</h2>
+      <div class="role-row reveal-group">
+        <div class="role-card reveal">
+          <span class="role-icon">👪</span>
+          <h3>Я родитель</h3>
+          <p>Хочу спокойно доверить дорогу в школу проверенному человеку и видеть весь путь онлайн.</p>
+          <a href="#cta" class="btn btn-primary btn-sm">Оставить заявку</a>
+        </div>
+        <div class="role-card role-card-accent reveal">
+          <span class="role-icon">🎒</span>
+          <h3>Хочу сопровождать</h3>
+          <p>Я старшеклассник, студент или родитель — готов провожать детей своей школы за плату.</p>
+          <a href="#cta" class="btn btn-outline btn-sm">Стать провожатым</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. CTA -->
+  <section class="section section-dark section-cta" id="cta">
+    <div class="wrap cta-grid">
+      <div class="reveal">
+        <span class="eyebrow eyebrow-dark">Запуск — сентябрь 2026</span>
+        <h2 class="h2 h2-dark">Узнайте первыми<br>о запуске в вашем районе</h2>
+        <p class="lead-sm lead-sm-dark">Оставьте контакты — сообщим, как только сервис откроется в вашей школе.</p>
+      </div>
+      <form class="cta-form reveal" id="ctaForm">
+        <div class="role-switch">
+          <label><input type="radio" name="role" value="parent" checked><span>Я родитель</span></label>
+          <label><input type="radio" name="role" value="escort"><span>Хочу сопровождать</span></label>
+        </div>
+        <input type="text" placeholder="Имя" required>
+        <input type="tel" placeholder="Телефон" required>
+        <input type="text" placeholder="Район или школа" required>
+        <label class="consent">
+          <input type="checkbox" required>
+          <span>Согласен(на) на <a href="#privacy">обработку персональных данных</a></span>
+        </label>
+        <button type="submit" class="btn btn-primary btn-block">Отправить заявку</button>
+        <p class="form-note" id="formNote" hidden>Спасибо! Мы свяжемся с вами перед запуском.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <a href="#top" class="logo logo-footer">
+      <img src="assets/mark.jpg" alt="" class="logo-mark">
+      <span class="logo-word">Про<em>Вожатый</em></span>
+    </a>
+    <nav class="footer-nav">
+      <a href="#how">Как это работает</a>
+      <a href="#safety">Безопасность</a>
+      <a href="#roles">Кому подходит</a>
+      <a href="#privacy" id="privacy">Политика конфиденциальности</a>
+    </nav>
+    <span class="footer-copy">© 2026 ПроВожатый</span>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
