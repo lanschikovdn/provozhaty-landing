@@ -1,7 +1,7 @@
 # 05 — QA всех правок + обновить документы
 
 **Blocked by:** 04-escort-parent-block
-**Status:** ready-for-agent
+**Status:** done
 
 ## Что сделать
 
