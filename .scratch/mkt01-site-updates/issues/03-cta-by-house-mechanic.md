@@ -1,7 +1,7 @@
 # 03 — CTA: механика «по домам» вместо «в вашем районе»
 
 **Blocked by:** 02-safety-60min-replacement
-**Status:** ready-for-agent
+**Status:** done
 
 ## Что сделать
 
