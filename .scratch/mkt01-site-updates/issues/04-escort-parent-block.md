@@ -1,7 +1,7 @@
 # 04 — Блок для родителей сопровождающего в карточке «Стать провожатым»
 
 **Blocked by:** 03-cta-by-house-mechanic
-**Status:** ready-for-agent
+**Status:** done
 
 ## Что сделать
 
